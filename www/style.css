@@ -1,0 +1,53 @@
+body {
+  overflow-x: hidden;
+}
+
+.container-custom{
+  margin-right: 3% !important;
+  margin-left: 3% !important;
+}
+
+.table-custom-style {
+    font-size: 15px;
+    overflow-x: auto;
+}
+
+.sidenav li > a > i, .sidenav li > a > [class^="mdi-"], .sidenav li > a li > a > [class*="mdi-"], .sidenav li > a > i.material-icons {
+    margin: 0 17px 0 0 !important;
+}
+
+#footer-style {
+  bottom: 0px;
+  position: fixed;
+  background: #757575;
+  width: 100%;
+  display: inline-block;
+  color: white;
+  padding: 0px 10px;
+  height: 65px;
+}
+
+.sidenav li > a {
+    padding: 0px 15px 0px 28px !important;
+}
+
+div#auth-auth-mod > .row {
+    width: 50% !important;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%) !important;
+    padding: 3% !important;
+}
+
+div#auth-msg_auth {
+    color: #fd0000 !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+}
+
+.sidenav .user-view .background {
+  text-align: center !important;
+}
+
+.sidenav .user-view .background img{
+  width: 170px !important;
+}
+
